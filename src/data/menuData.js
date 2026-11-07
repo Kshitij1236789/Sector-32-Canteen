@@ -15,7 +15,7 @@ import cokeCanImage from "../images/coke_can.jpg";
 import pepsiCanImage from "../images/pepsi can.jpeg";
 import pepsi from "../images/pepsi.jpg"
 import mazza from "../images/mazza.jpg"
-import milkBadam from "../images/milk Badam.jpg"
+import milkBadam from "../images/milk badam.jpg";
 import monsterCan from "../images/monster can.jpg"
 import RedBull from "../images/redbull.jpg"
 import TedheMedde from "../images/Tedhe medde.jpg"
