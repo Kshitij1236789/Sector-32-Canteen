@@ -1,0 +1,53 @@
+
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f7f7f7;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#root {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+button {
+  touch-action: manipulation;
+}
+
+/* Bottom cart space */
+body {
+  margin: 0;
+}
+
+.menu-page {
+  padding-bottom: 110px;
+}
+
+/* Checkout screen */
+.checkout-page {
+  height: 100dvh;
+  overflow: hidden;
+}
+
+/* Checkout items scrolling */
+.checkout-content {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+/* Mobile checkout button */
+.checkout-button {
+  padding-bottom: max(16px, env(safe-area-inset-bottom));
+}
